@@ -1,0 +1,60 @@
+# Python environments and caches
+.venv/
+.venv*/
+venv/
+venv*/
+/PA2_Word2Vec/
+__pycache__/
+*.py[cod]
+*.pyd
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.cache/
+
+# IDE and OS files
+.vs/
+.vscode/
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+.DS_Store
+Thumbs.db
+
+# Local datasets and generated splits
+/data/THUCNews/
+/data/199801/
+/data/interim/
+/data/processed/
+
+# Trained models and runtime output
+/model/
+/result/metrics/*
+!/result/metrics/public_summary.json
+/result/logs/
+/result/manual_audit/
+/result/small_sample/
+/result/env_snapshot.json
+/result/reports/error_analysis.md
+/result/reports/stage5_ablation_report.md
+
+# Research source PDFs and assignment materials
+/documents/
+/requirements/
+*.pdf
+
+# Secrets and local configuration
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*credentials*
+*secret*
+
+# Temporary and log files
+*.log
+*.pid
+*.tmp
+*.bak
